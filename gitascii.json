@@ -1,0 +1,137 @@
+{
+  "widgets": [
+    {
+      "widgetId": "header",
+      "name": "Header Widget",
+      "position": {
+        "x": 0,
+        "y": 0
+      },
+      "size": {
+        "width": 800,
+        "height": 90
+      },
+      "config": {
+        "accentColor": "#00ffff",
+        "animationType": "fade-in",
+        "animationPreviewKey": 1
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 1,
+      "instanceId": "widget_1791359287374_0"
+    },
+    {
+      "widgetId": "terminal-info",
+      "name": "Terminal-info Widget",
+      "position": {
+        "x": 8,
+        "y": 98
+      },
+      "size": {
+        "width": 784,
+        "height": 280
+      },
+      "config": {
+        "animationType": "fade-in",
+        "animationPreviewKey": 1,
+        "showFollowing": false,
+        "showJoined": true,
+        "showTimezone": false,
+        "showAchievements": false,
+        "showHighlights": false,
+        "showPronouns": false,
+        "showStatus": false,
+        "showEmail": true,
+        "showWebsite": false,
+        "showGists": false,
+        "accentColor": "#00ffff",
+        "headerColor": "#00ff88",
+        "labelColor": "#55ffff",
+        "dotColor": "#2e4c38",
+        "valueColor": "#e6edf3",
+        "statsValColor": "#00ff88",
+        "dividerColor": "#1a2e22"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 3,
+      "instanceId": "widget_1791359287374_2"
+    },
+    {
+      "widgetId": "languages",
+      "name": "Languages Widget",
+      "position": {
+        "x": 8,
+        "y": 386
+      },
+      "size": {
+        "width": 536,
+        "height": 160
+      },
+      "config": {
+        "animationType": "fade-in",
+        "animationPreviewKey": 1,
+        "hideBorder": false,
+        "langsLayout": "bars",
+        "langsCount": 6,
+        "hideLangsArr": [],
+        "hideLangs": "",
+        "showPercentage": true,
+        "accentColor": "#00ffff"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 4,
+      "instanceId": "widget_1791359287374_3"
+    },
+    {
+      "widgetId": "tech-stack",
+      "name": "Tech-stack Widget",
+      "position": {
+        "x": 552,
+        "y": 386
+      },
+      "size": {
+        "width": 240,
+        "height": 160
+      },
+      "config": {
+        "selectedTechs": [
+          "react",
+          "tailwind",
+          "vite",
+          "go",
+          "docker",
+          "terraform",
+          "ansible",
+          "linux",
+          "postgres",
+          "supabase"
+        ],
+        "theme": "dark",
+        "perLine": 5,
+        "customTitle": "",
+        "animationType": "fade-in",
+        "animationPreviewKey": 9,
+        "accentColor": "#00ffff"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6,
+      "instanceId": "widget_1791359287375_5"
+    }
+  ],
+  "globalStyles": {
+    "backgroundColor": "#060606",
+    "textColor": "#e5e5e5",
+    "accentColor": "#c5ff4a",
+    "borderColor": "#252525",
+    "fontFamily": "'JetBrains Mono', monospace",
+    "borderRadius": 0,
+    "padding": 24,
+    "themeMode": "dark",
+    "templateStyle": "native"
+  },
+  "templateId": "terminal"
+}
