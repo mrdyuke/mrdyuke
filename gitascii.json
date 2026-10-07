@@ -137,7 +137,9 @@
         ],
         "accentColor": "#f0f0f0",
         "backgroundColor": "transparent",
-        "textColor": "#f0f0f0"
+        "textColor": "#f0f0f0",
+        "detail": "ultra",
+        "cols": 150
       },
       "locked": false,
       "visible": true,
@@ -209,7 +211,7 @@
   "templateId": "terminal",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1791364807825_4injz",
-    "updatedAt": "2026-10-07T09:20:10.227Z"
+    "revision": "rev_1791364855429_hff6c",
+    "updatedAt": "2026-10-07T09:20:57.456Z"
   }
 }
