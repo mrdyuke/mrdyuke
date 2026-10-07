@@ -120,7 +120,8 @@
         "animationType": "fade-in",
         "animationPreviewKey": 9,
         "accentColor": "#00ffff",
-        "backgroundColor": "#0d1117"
+        "backgroundColor": "#0d1117",
+        "hideDecorations": false
       },
       "locked": false,
       "visible": true,
@@ -142,7 +143,7 @@
   "templateId": "terminal",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1791361997669_zw3oe",
-    "updatedAt": "2026-10-07T08:33:20.627Z"
+    "revision": "rev_1791362049279_587fm",
+    "updatedAt": "2026-10-07T08:34:11.427Z"
   }
 }
