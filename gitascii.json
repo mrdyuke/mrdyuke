@@ -1,4 +1,5 @@
 {
+  "username": "mrdyuke",
   "widgets": [
     {
       "widgetId": "header",
@@ -14,7 +15,8 @@
       "config": {
         "accentColor": "#00ffff",
         "animationType": "fade-in",
-        "animationPreviewKey": 1
+        "animationPreviewKey": 1,
+        "backgroundColor": "#0d1117"
       },
       "locked": false,
       "visible": true,
@@ -51,7 +53,9 @@
         "dotColor": "#2e4c38",
         "valueColor": "#e6edf3",
         "statsValColor": "#00ff88",
-        "dividerColor": "#1a2e22"
+        "dividerColor": "#1a2e22",
+        "customTitle": "",
+        "backgroundColor": "#0d1117"
       },
       "locked": false,
       "visible": true,
@@ -78,7 +82,8 @@
         "hideLangsArr": [],
         "hideLangs": "",
         "showPercentage": true,
-        "accentColor": "#00ffff"
+        "accentColor": "#00ffff",
+        "backgroundColor": "#0d1117"
       },
       "locked": false,
       "visible": true,
@@ -111,10 +116,11 @@
         ],
         "theme": "dark",
         "perLine": 5,
-        "customTitle": "",
+        "customTitle": "[SKILLS]",
         "animationType": "fade-in",
         "animationPreviewKey": 9,
-        "accentColor": "#00ffff"
+        "accentColor": "#00ffff",
+        "backgroundColor": "#0d1117"
       },
       "locked": false,
       "visible": true,
@@ -123,7 +129,7 @@
     }
   ],
   "globalStyles": {
-    "backgroundColor": "#060606",
+    "backgroundColor": "#0d1117",
     "textColor": "#e5e5e5",
     "accentColor": "#c5ff4a",
     "borderColor": "#252525",
@@ -133,5 +139,10 @@
     "themeMode": "dark",
     "templateStyle": "native"
   },
-  "templateId": "terminal"
+  "templateId": "terminal",
+  "profileSlug": "default",
+  "metadata": {
+    "revision": "rev_1791361997669_zw3oe",
+    "updatedAt": "2026-10-07T08:33:20.627Z"
+  }
 }
