@@ -2,37 +2,15 @@
   "username": "mrdyuke",
   "widgets": [
     {
-      "widgetId": "header",
-      "name": "Header Widget",
-      "position": {
-        "x": 0,
-        "y": 0
-      },
-      "size": {
-        "width": 800,
-        "height": 90
-      },
-      "config": {
-        "accentColor": "#00ffff",
-        "animationType": "fade-in",
-        "animationPreviewKey": 1,
-        "backgroundColor": "#0d1117"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 1,
-      "instanceId": "widget_1791359287374_0"
-    },
-    {
       "widgetId": "terminal-info",
       "name": "Terminal-info Widget",
       "position": {
         "x": 8,
-        "y": 98
+        "y": 144
       },
       "size": {
         "width": 784,
-        "height": 280
+        "height": 232
       },
       "config": {
         "animationType": "fade-in",
@@ -55,7 +33,7 @@
         "statsValColor": "#00ff88",
         "dividerColor": "#1a2e22",
         "customTitle": "",
-        "backgroundColor": "#0d1117"
+        "backgroundColor": "transparent"
       },
       "locked": false,
       "visible": true,
@@ -67,10 +45,10 @@
       "name": "Languages Widget",
       "position": {
         "x": 8,
-        "y": 386
+        "y": 516
       },
       "size": {
-        "width": 536,
+        "width": 542,
         "height": 160
       },
       "config": {
@@ -83,7 +61,7 @@
         "hideLangs": "",
         "showPercentage": true,
         "accentColor": "#00ffff",
-        "backgroundColor": "#0d1117"
+        "backgroundColor": "transparent"
       },
       "locked": false,
       "visible": true,
@@ -94,8 +72,8 @@
       "widgetId": "tech-stack",
       "name": "Tech-stack Widget",
       "position": {
-        "x": 552,
-        "y": 386
+        "x": 550,
+        "y": 516
       },
       "size": {
         "width": 240,
@@ -120,30 +98,113 @@
         "animationType": "fade-in",
         "animationPreviewKey": 9,
         "accentColor": "#00ffff",
-        "backgroundColor": "#0d1117",
+        "backgroundColor": "transparent",
         "hideDecorations": false
       },
       "locked": false,
       "visible": true,
       "zIndex": 6,
       "instanceId": "widget_1791359287375_5"
+    },
+    {
+      "instanceId": "widget_1791362537067",
+      "widgetId": "ascii-text",
+      "name": "Ascii-text Widget",
+      "position": {
+        "x": 8,
+        "y": 8
+      },
+      "size": {
+        "width": 784,
+        "height": 120
+      },
+      "config": {
+        "customText": "MRDYUKE",
+        "asciiFont": "block",
+        "charSpacing": 1,
+        "fontSize": 12,
+        "charset": "default",
+        "customCharset": "",
+        "asciiLines": [
+          "██    ██ ███████▄ ██████▄  ██    ██ ██    ██ ██    ██ ████████",
+          "████████ ██    ██ ██    ██  ▀████▀  ██    ██ ██  ▄█▀  ██      ",
+          "██ ▀▀ ██ ███████▀ ██    ██    ██    ██    ██ █████▄   ██████  ",
+          "██    ██ ██  ▀██▄ ██    ██    ██    ██    ██ ██  ▀██▄ ██      ",
+          "██    ██ ██    ██ ██████▀     ██     ▀████▀  ██    ██ ████████"
+        ],
+        "accentColor": "#00ffff",
+        "backgroundColor": "transparent"
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    },
+    {
+      "instanceId": "widget_1791363707096",
+      "widgetId": "stats",
+      "name": "Stats Widget",
+      "position": {
+        "x": 8,
+        "y": 386
+      },
+      "size": {
+        "width": 784,
+        "height": 120
+      },
+      "config": {
+        "accentColor": "#00ffff",
+        "backgroundColor": "transparent",
+        "animationType": "fade-in",
+        "animationPreviewKey": 1
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 5
+    },
+    {
+      "instanceId": "widget_1791363781181",
+      "widgetId": "bio",
+      "name": "Bio Widget",
+      "position": {
+        "x": 8,
+        "y": 686
+      },
+      "size": {
+        "width": 784,
+        "height": 508
+      },
+      "config": {
+        "customBio": "👋 Hello there! I'm Peter\n\nA tech enthusiast and systems-focused IT specialist from Belarus. \n\nMy journey started in Full-stack software engineering, where I built and maintained production systems across the entire lifecycle—from polishing interactive Frontend UIs to architecting backend services and CLI tools in Go. This gave me deep visibility into how applications behave from the inside out and how software integrates with modern infrastructure.\n\nHowever, complex systems are only as good as the networks that connect them. Today, my primary focus has shifted toward Systems and Network Administration. I'm channeling my development background into mastering:\n\n• Linux Networking Stack & Kernel-level packet flow\n• L2/L3 Diagnostics, deep troubleshooting, and traffic analysis\n• Infrastructure Monitoring and Network Automation\n\nI love taking apart messy technical issues, understanding exactly how packets travel\nunder the hood, and keeping infrastructure rock-solid. Let's connect!",
+        "customTitle": "",
+        "customBlog": "https://open-vsx.org/extension/MrDyuke/react-fast-snippets/changes",
+        "showTitle": true,
+        "hideDecorations": false,
+        "backgroundColor": "transparent",
+        "accentColor": "#00ffff",
+        "animationType": "fade-in",
+        "animationPreviewKey": 1
+      },
+      "locked": false,
+      "visible": true,
+      "zIndex": 6
     }
   ],
   "globalStyles": {
     "backgroundColor": "#0d1117",
-    "textColor": "#e5e5e5",
+    "textColor": "#00ffff",
     "accentColor": "#c5ff4a",
     "borderColor": "#252525",
     "fontFamily": "'JetBrains Mono', monospace",
     "borderRadius": 0,
     "padding": 24,
     "themeMode": "dark",
-    "templateStyle": "native"
+    "templateStyle": "native",
+    "transparentBackground": true
   },
   "templateId": "terminal",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1791362049279_587fm",
-    "updatedAt": "2026-10-07T08:34:11.427Z"
+    "revision": "rev_1791364530913_x8s51",
+    "updatedAt": "2026-10-07T09:15:34.213Z"
   }
 }
