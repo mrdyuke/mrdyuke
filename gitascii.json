@@ -168,34 +168,6 @@
       "locked": false,
       "visible": true,
       "zIndex": 5
-    },
-    {
-      "instanceId": "widget_1791363781181",
-      "widgetId": "bio",
-      "name": "Bio Widget",
-      "position": {
-        "x": 8,
-        "y": 686
-      },
-      "size": {
-        "width": 784,
-        "height": 508
-      },
-      "config": {
-        "customBio": "👋 Hello there! I'm Peter\n\nA tech enthusiast and systems-focused IT specialist from Belarus. \n\nMy journey started in Full-stack software engineering, where I built and maintained production systems across the entire lifecycle—from polishing interactive Frontend UIs to architecting backend services and CLI tools in Go. This gave me deep visibility into how applications behave from the inside out and how software integrates with modern infrastructure.\n\nHowever, complex systems are only as good as the networks that connect them. Today, my primary focus has shifted toward Systems and Network Administration. I'm channeling my development background into mastering:\n\n• Linux Networking Stack & Kernel-level packet flow\n• L2/L3 Diagnostics, deep troubleshooting, and traffic analysis\n• Infrastructure Monitoring and Network Automation\n\nI love taking apart messy technical issues, understanding exactly how packets travel\nunder the hood, and keeping infrastructure rock-solid. Let's connect!",
-        "customTitle": "",
-        "customBlog": "https://open-vsx.org/extension/MrDyuke/react-fast-snippets/changes",
-        "showTitle": true,
-        "hideDecorations": false,
-        "backgroundColor": "transparent",
-        "accentColor": "#c5ff4a",
-        "animationType": "fade-in",
-        "animationPreviewKey": 1,
-        "textColor": "#f0f0f0"
-      },
-      "locked": false,
-      "visible": true,
-      "zIndex": 6
     }
   ],
   "globalStyles": {
@@ -213,7 +185,7 @@
   "templateId": "terminal",
   "profileSlug": "default",
   "metadata": {
-    "revision": "rev_1791364880200_nrfc3",
-    "updatedAt": "2026-10-07T09:21:22.169Z"
+    "revision": "rev_1793712264840_r1ujw",
+    "updatedAt": "2026-11-03T13:24:27.651Z"
   }
 }
